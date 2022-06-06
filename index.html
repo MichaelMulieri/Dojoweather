@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-wrapper">
+        <header class="nav-bar">
+            <h1>DojoWeather</h1>
+            <div class="ul-1">
+                <ul>
+                    <li><a onclick="getValue(this)" name="Burbank" value="burbank" class="ancor" href="#">Burbank</a></li>
+                    <li><a onclick="getValue(this)" name="Chicago" value="chicago" class="ancor" href="#">Chicago</a></li>
+                    <li><a onclick="getValue(this)" name="Dallas" value= "dallas" class="ancor" href="#">Dallas</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="nav-bar-2">
+            <div class="nav-bar-2-r">
+                <p>show temperature in</p>
+                <select name="unit" id="unit" onchange="changeUnit(this)">
+                    <option class="C" value="C">°C</option>
+                    <option class="F" value="F">°F</option>
+                </select>
+            </div>
+        </div>
+        <main>
+            <div class="row">
+                <div id="today">
+                </div>
+            </div>
+            <div class="cookie">
+                <img class="cookie-img" src="/assets/cookie.png" alt="cookies">
+                <div class="main-cookie">
+                    <h3>Hey! Cookie time</h3>
+                    <p>We use cookies (sadly not the edible ones) to 
+                        personalize content and ads, to provide social media features and to 
+                    analyse our traffic. <a onclick="message4(this)" href="#">Read more...</a></p>
+                </div>
+                <button onclick="remove()" class="accept-btn">I Accept</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</body>
+</html>
+                    
+                    
+                
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+
+
